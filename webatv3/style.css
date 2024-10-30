@@ -1,0 +1,98 @@
+body {
+    background-color: #f4f4f4;
+}
+
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-header h1 {
+    color: white;
+}
+
+.menu a {
+    color: #73cac3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #09193b;
+    text-decoration: underline;
+}
+
+main > section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.section-info {
+    background-color: #e6e2e2;
+}
+
+#about .list-item {
+    color: #555;
+}
+
+#about .list-item:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border: 1px solid #00aaff;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    padding-top: 10px;
+    margin: 0;
+}
+
+h2::before {
+    content: "— ";
+    color: #000000;
+    margin-right: 5px;
+}
+
+.menu a:visited {
+    color: #999;
+}
